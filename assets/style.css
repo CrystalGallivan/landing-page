@@ -1,7 +1,12 @@
 #name {
-background-color: rgba(123, 45, 10, .9);
+background-color: rgba(241, 141, 174, 0.288);
 height: 200px;
 }
 .h100 {
   height: 100vh;
+}
+#things {
+  display: flex;
+  align-items: center;
+
 }
