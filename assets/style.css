@@ -1,5 +1,5 @@
 body {
-  background-color: whitesmoke;
+  background-image: url(bgcimage1.jpg)
   color: rgba(73, 71, 75, 0.651);
 }
 #name {
@@ -51,41 +51,40 @@ color: rgba(73, 71, 75, 0.651);
   flex-direction: column;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
-#blank {
-  min-height: 80px;
-  
-}
+
 #bgimg {
   display: flex;
   flex-direction: row;
-  background-color: rgb(43, 2, 53);
-border: 2px solid whitesmoke;
-outline: 37px solid rgba(73, 71, 75, 0.651);
-outline-offset: 15px;
+  max-height: 100vh;
+  max-width: 100vw;
   
+ justify-content: center;
+ 
+   
  }
 #img401 {
   display: flex;
   align-items: center;
-  
+  margin: 0px;
+  padding: 0px;
+ 
 }
-#img402 {
-  display: flex;
-  align-items: center;
-   background-color: rgb(43, 2, 53);
-}
+
 #mywork {
   display: flex;
   flex-direction: column;
   padding-bottom: 30px;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  color: whitesmoke);
   
   
 }
 #myworktitle {
   display: flex;
   justify-content: center;
-  
+ 
 }
 #myworkdescription {
   display: flex;
@@ -130,6 +129,7 @@ padding-top: 50px;
   justify-content: space-around;
   background-color: #ebebeb;
   align-items: center;
+  color: black;
 }
 #backend {
   display: flex;
@@ -137,6 +137,7 @@ padding-top: 50px;
   justify-content: space-around;
   background-color: #ebebeb;
   align-items: center;
+  color: black;
 }
 #blank3 {
   background-color: black;
