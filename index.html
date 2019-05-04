@@ -17,21 +17,30 @@
   <header class="container" id="name">
     <section class="row navbar-brand" role="banner" data-op="0.4" data-ab="true" style="position: absolute;"></section>
     <div class="col">
-      <h1>Crystal Gallivan</h1>
+      <h1 id="nametitle">Crystal Gallivan</h1>
     </div>
     </section>
-    <section class="row">
-      <div class="col">
-        <h3>About</h3>
+    <section class="row" id="navbutton">
+      <div class="col-2 offset-4">
+        <button type="button" class="btn btn-light">
+          <h3 id="about">About</h3>
+        </button>
       </div>
-      <div class="col">
-        <h3>Portfolio</h3>
+      <div class="col-2">
+        <button type="button" class="btn btn-light">
+          <h3>Portfolio</h3>
+        </button>
+
       </div>
-      <div class="col">
-        <h3>Contact</h3>
+      <div class="col-2">
+        <button type="button" class="btn btn-light">
+          <h3>Contact</h3>
+        </button>
       </div>
-      <div class="col">
-        <h3>Resume</h3>
+      <div class="col-2">
+        <button type="button" class="btn btn-light">
+          <h3>Resume</h3>
+        </button>
       </div>
     </section>
     <section class="row" id="carousel1">
@@ -82,20 +91,8 @@
       </div> -->
     </section>
   </header>
-  </header>
-  <main class="container" id="maincon">
-    <section class="row navbar-brand" id="things">
-      <div class="col-2 offset-3">
-        <p>Stuff</p>
-      </div>
-      <div class="col-2">
-        <p>Another Thing</p>
-      </div>
-      <div class="col-2">
-        <p>Other Stuff</hp>
-      </div>
-    </section>
-    <section class="row" id="cardset">
+  <main class="container-fluid">
+    <section class="row" id="cardset" style="margin-top: 500px;">
       <div class="col" id="card1">
         <div class="card">
           <div class="img">
@@ -121,95 +118,99 @@
         </div>
       </div>
     </section>
+  </main>
+  <main2 class="containter-fluid">
     <section class="row" id="blank"></section>
     <section class="row">
       <div class="col-8 offset-2" id="mywork">
-        <h1 id="myworktitle">My Work</h1>
-        <hr />
-        <p id="myworkdescription">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum accusantium eos harum
-          commodi. Ratione quis
-          fugiat, beatae optio esse, molestias, vitae unde ad dicta nulla accusamus. Nulla, assumenda alias? Nam.</p>
-      </div>
-    </section>
-    <section class="row" id="bgimg">
-
-      <div class="col-4" id="img401">
-        <img src="assets/heroimage1.jpg" height="350px" width="400px" />
-      </div>
-      <div class="col-4" id="img402">
-        <img src="assets/heroimage2.jpg" height="350px" width="400px" />
-      </div>
-      <div class="col-4" id="img402">
-        <img src="assets/smimg1.jpg" height="350px" width="400px" />
-      </div>
-    </section>
-
-  </main>
-  <main2 class="container">
-    <section class="row" id="project">
-      <div class="col">
-        <div class="row" id="projects1">
-          <div class="col-3 offset-1">
-            <img src="assets/smimg2.jpg" height=175xp width=175xp alt="" id="smimg1" />
-          </div>
-          <div class="col-3">
-            <img src="assets/smimg3.jpg" height=175xp width=175xp alt="" id="smimg1" />
-          </div>
-        </div>
-        <div class="row" id="projects2">
-          <div class="col-3 offset-1">
-            <img src="assets/smimg4.jpg" height=175xp width=175xp alt="" id="smimg1" />
-          </div>
-          <div class="col-3">
-            <img src="assets/smimg5.jpg" height=175xp width=175xp alt="" id="smimg1" />
-          </div>
-          <div class="col-3">
-            <img src="assets/smimg6.jpg" height=175xp width=175xp alt="" id="smimg1" />
-          </div>
+        <div class="card">
+          <h1 id="myworktitle">My Work</h1>
+          <hr />
+          <p id="myworkdescription">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum accusantium eos harum
+            commodi. Ratione quis
+            fugiat, beatae optio esse, molestias, vitae unde ad dicta nulla accusamus. Nulla, assumenda alias? Nam.</p>
         </div>
       </div>
     </section>
-    <section class="row" id="blank2">
-    </section>
-  </main2>
-  <footer class="container">
-    <section class="row" id="laicons">
-      <div class="col-8" id="frontend">
-        <i class="fab fa-html5 fa-5x"></i>
-        <i class="fab fa-bootstrap fa-5x"></i>
-        <i class="fab fa-js-square fa-5x"></i>
-        <i class="fab fa-vuejs fa-5x"></i>
-        <i class="fab fa-angular fa-5x"></i>
-      </div>
-      <div class="col-4" id="backend">
-        <i class="fab fa-node fa-5x"></i>
-        <i class="fab fa-node-js fa-5x"></i>
-        <i class="fab fa-python fa-5x"></i>
-      </div>
-    </section>
-    <section class="row" id="blank3"></section>
-    <hr id="line" />
-    <section class="row">
-      <div class="col-2" id="blankspace"></div>
-      <div class="col-4" id="socialmedia">
-        <i class="fab fa-facebook-square fa-4"></i>
-        <i class="fab fa-instagram fa-4"></i>
-        <i class="fab fa-github fa-4"></i>
-        <i class="fab fa-twitter fa-4"></i>
-        <i class="fab fa-linkedin fa-4-in"></i>
-      </div>
-      <div class="col-6" id="blankspace"></div>
-    </section>
-  </footer>
-  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-    crossorigin="anonymous"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
-    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
-    crossorigin="anonymous"></script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
-    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
-    crossorigin="anonymous"></script>
+    <main3 class="container-fluid">
+      <section class="row" id="bgimg">
+        <div class="col-4" id="img401">
+          <img src="assets/heroimage1.jpg" height="350px" width="400px" style="margin-right: -3;" />
+        </div>
+        <div class=" col-4" id="img402">
+          <img src="assets/heroimage2.jpg" height="350px" width="400px" />
+        </div>
+        <div class="col-4" id="img402">
+          <img src="assets/smimg1.jpg" height="350px" width="400px" />
+        </div>
+      </section>
+
+    </main3>
+    <main4 class="container">
+      <section class="row" id="project">
+        <div class="col">
+          <div class="row" id="projects1">
+            <div class="col-3">
+              <img src="assets/smimg2.jpg" height=175xp width=175xp alt="" id="smimg1" />
+            </div>
+            <div class="col-3">
+              <img src="assets/smimg3.jpg" height=175xp width=175xp alt="" id="smimg1" />
+            </div>
+          </div>
+          <div class="row" id="projects2">
+            <div class="col-3">
+              <img src="assets/smimg4.jpg" height=175xp width=175xp alt="" id="smimg1" />
+            </div>
+            <div class="col-3">
+              <img src="assets/smimg5.jpg" height=175xp width=175xp alt="" id="smimg1" />
+            </div>
+            <div class="col-3">
+              <img src="assets/smimg6.jpg" height=175xp width=175xp alt="" id="smimg1" />
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="row" id="blank2">
+      </section>
+    </main4>
+    <footer class="container">
+      <section class="row" id="laicons">
+        <div class="col-8" id="frontend">
+          <i class="fab fa-html5 fa-5x"></i>
+          <i class="fab fa-bootstrap fa-5x"></i>
+          <i class="fab fa-js-square fa-5x"></i>
+          <i class="fab fa-vuejs fa-5x"></i>
+          <i class="fab fa-angular fa-5x"></i>
+        </div>
+        <div class="col-4" id="backend">
+          <i class="fab fa-node fa-5x"></i>
+          <i class="fab fa-node-js fa-5x"></i>
+          <i class="fab fa-python fa-5x"></i>
+        </div>
+      </section>
+      <section class="row" id="blank3"></section>
+      <hr id="line" />
+      <section class="row">
+        <div class="col-2" id="blankspace"></div>
+        <div class="col-4" id="socialmedia">
+          <i class="fab fa-facebook-square fa-4"></i>
+          <i class="fab fa-instagram fa-4"></i>
+          <i class="fab fa-github fa-4"></i>
+          <i class="fab fa-twitter fa-4"></i>
+          <i class="fab fa-linkedin fa-4-in"></i>
+        </div>
+        <div class="col-6" id="blankspace"></div>
+      </section>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+      crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+      crossorigin="anonymous"></script>
 </body>
 
 </html>

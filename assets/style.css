@@ -1,17 +1,33 @@
 body {
-   background-color: rgb(43, 2, 53);
+  background-color: whitesmoke;
+  color: rgba(73, 71, 75, 0.651);
 }
 #name {
 background-color: rgba(43, 2, 53, 0.075);
 height: 200px;
 font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-color: #ebebeb;
+color: rgba(73, 71, 75, 0.651);
+}
+#nametitle {
+  padding-top: 30px; 
 }
 .h100 {
   height: 100vh;
 }
 #maincon {
-  background-color: rgb(43, 2, 53);
+ 
+}
+#navbutton {
+  display: flex;
+  flex-direction: row;
+  align-content: flex-end;
+  padding-bottom: 5px;
+  color:  rgba(73, 71, 75, 0.651);
+}
+#about {
+  margin-right: 16px;
+  margin-left: 15px;
+
 }
 #things {
   background-color: rgb(43, 2, 53);
@@ -23,7 +39,7 @@ color: #ebebeb;
 }
 #cardset {
   padding-top: 50px;
-  background-color: rgb(43, 2, 53);
+  
  
  
 }
@@ -36,18 +52,22 @@ color: #ebebeb;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 #blank {
-  min-height: 200px;
-   background-color: rgb(43, 2, 53);
+  min-height: 80px;
+  
 }
 #bgimg {
   display: flex;
   flex-direction: row;
-   background-color: rgb(43, 2, 53);
+  background-color: rgb(43, 2, 53);
+border: 2px solid whitesmoke;
+outline: 37px solid rgba(73, 71, 75, 0.651);
+outline-offset: 15px;
+  
  }
 #img401 {
   display: flex;
   align-items: center;
-   background-color: rgb(43, 2, 53);
+  
 }
 #img402 {
   display: flex;
@@ -58,46 +78,44 @@ color: #ebebeb;
   display: flex;
   flex-direction: column;
   padding-bottom: 30px;
-  color: whitesmoke;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-   background-color: rgb(43, 2, 53);
+  
   
 }
 #myworktitle {
   display: flex;
   justify-content: center;
-   background-color: rgb(43, 2, 53);
+  
 }
 #myworkdescription {
   display: flex;
   text-align: center;
-   background-color: rgb(43, 2, 53);
+ 
 }
 #project {
   display: flex;
   justify-content: center;
   margin: 5%;
-   background-color: rgb(43, 2, 53);
+  
 }
 #projects1 {
 display: flex;
 justify-content: center;
- background-color: rgb(43, 2, 53);
-
+ 
 }
 #smimg1 {
 margin: 15px;
-border: 2px solid white;
-outline: 2px solid whitesmoke;
+border: 2px solid whitesmoke;
+outline: 2px solid rgba(73, 71, 75, 0.651);
 outline-offset: 15px;
- background-color: rgb(43, 2, 53);
+
 }
 
 #projects2 {
 display: flex;
 justify-content: center;
 padding-top: 50px;
- background-color: rgb(43, 2, 53);
+
 }
 #blank {
   min-height: 200px;
@@ -143,8 +161,8 @@ padding-top: 50px;
   
   }
   #blankspace {
-    background-color: black;
-    color: white;
+  background-color: black;
+  color: white;
   height: 75px;
   font-size: 20pt;
   display: flex;
