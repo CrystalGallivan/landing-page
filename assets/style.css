@@ -1,6 +1,19 @@
 body {
-  background-image: url(bgcimage1.jpg)
+ 
   color: rgba(73, 71, 75, 0.651);
+}
+#overlay {
+  position: fixed;
+  display: none;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(23, 71, 75, 0.5);
+  z-index: 2;
+  cursor: pointer;
 }
 #name {
 background-color: rgba(43, 2, 53, 0.075);
@@ -14,9 +27,7 @@ color: rgba(73, 71, 75, 0.651);
 .h100 {
   height: 100vh;
 }
-#maincon {
- 
-}
+
 #navbutton {
   display: flex;
   flex-direction: row;
@@ -77,10 +88,9 @@ color: rgba(73, 71, 75, 0.651);
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   margin-top: 50px;
   margin-bottom: 50px;
-  color: whitesmoke);
+  color: whitesmoke;
   
-  
-}
+  }
 #myworktitle {
   display: flex;
   justify-content: center;
@@ -120,9 +130,7 @@ padding-top: 50px;
   min-height: 200px;
    
 }
-#laicons {
-  
-}
+
 #frontend {
   display:flex;
   min-height: 150px;
@@ -142,8 +150,7 @@ padding-top: 50px;
 #blank3 {
   background-color: black;
   height: 15px;
-  outline-color: 
-
+  outline-color: white;
 }
 #line {
   margin-top: 0.1rem;
